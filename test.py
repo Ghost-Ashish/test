@@ -1,3 +1,5 @@
+
+# 1.
 '''que 3. Remove Duplicate Elements Without Using set)
 You are given a list containing duplicate values.
 Create a new list containing each value only once, while maintaining the original order.
@@ -25,23 +27,7 @@ print(remove_duplicates(lst))
 
 
 
-'''
-question 2. Character Frequency Counter
-You are given a string. Count how many times each character appears in the string.
-Ignore spaces and treat uppercase and lowercase letters as the same character.
-'''
-
-def frequencycounter(text):
-    frequency = {}
-    for char in text:
-        frequency[char] = frequency.get(char, 0) + 1
-        
-    return frequency
-
-
-str = "Hello World"
-print(frequencycounter(str))
-
+#2.
 '''
 question 4. Student Marks Analysis
 You are given the marks of students in a list.
@@ -85,6 +71,7 @@ print(f"Failed Students: {failed_count}")
 
 
 '''
+#3.
 question 5. Find the Missing Number
 You are given a list containing numbers from 1 to n, but exactly one number is missing.
 Find the missing number.
@@ -104,7 +91,7 @@ print(f"Missing Number is: {find_missingnumber(numbers)}")
 
 
 '''
-
+#4.
 question 6. Compress Consecutive Duplicate Characters
 You are given a string where some characters occur consecutively.
 Create a new string by keeping only one character from each consecutive group.
@@ -134,6 +121,7 @@ print(compress_consecutive("aaabbeccodaa"))
 
 
 '''
+#5.
 
 question 8. A shopping cart contains product names and their prices.
 cart =
@@ -176,7 +164,7 @@ print(f"Total bill: {total_bill}")
 print(f"Discount values: {discount_per}% (-{discount_amount})")
 print(f"Final Amount: {final_amount}")
 
-
+#6.
 
 '''
 question 9. 
